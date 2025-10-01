@@ -1,0 +1,249 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "/public/uploads"
+public_folder: "/uploads"
+
+site_url: "https://admirable-syrniki-686715.netlify.app/"
+display_url: "https://admirable-syrniki-686715.netlify.app/"
+editor:
+  preview: false
+
+collections:
+  # Main Page
+
+  - name: "main_page"
+    label: "Main Page"
+    files:
+      - file: "src/content/main/main.json"
+        label: "Main Page Content"
+        name: "main_page_content"
+        fields:
+          - label: "Main page header"
+            name: "main_page_header"
+            widget: "string"
+
+          - label: "Main page text"
+            name: "main_page_text"
+            widget: "string"
+
+          - label: "Main page available products"
+            name: "main_page_products_list"
+            widget: "list"
+            min: 4
+            max: 4
+            fields:
+              - label: "Product list"
+                name: "main_page_product_list"
+                widget: "string"
+
+          - label: "Main page background"
+            name: "main_page_background"
+            widget: "image"
+
+          - label: "Main Page Products"
+            name: "main_page_products"
+            widget: "object"   
+            fields:
+              - label: "Product list"
+                name: "product_list"
+                widget: "list"
+                min: 3
+                fields:
+                  - label: "Product Name"
+                    name: "product_name"
+                    widget: "string"
+
+                  - label: "Product present image"
+                    name: "product_present_image"
+                    widget: "image"
+
+                  - label: "Product images"
+                    name: "product_images"
+                    widget: "list"
+                    max: 3
+                    min: 2
+                    fields:
+                      - label: "Product image"
+                        name: "product_images"
+                        widget: "image"
+
+                  - label: "Product sizes"
+                    name: "product_sizes"
+                    widget: "list"
+                    min: 1
+                    max: 5
+                    field:     
+                      label: "Size"
+                      name: "size"
+                      widget: "string"
+
+                  - label: "Product availability"
+                    name: "product_available"
+                    widget: "boolean"
+                    required: false
+
+                  - label: "Product price"
+                    name: "product_price"
+                    widget: "string"
+
+              - label: "Message button"
+                name: "message_text"
+                default: "Message us!"
+                widget: "string"
+
+              - label: "Inbox link"
+                name: "inbox_link"
+                widget: "string"
+
+              - label: "Product page header"
+                name: "product_page_header"
+                widget: "string"
+
+  
+  # About Page
+  
+  # about  page
+  - name: "about_page"
+    label: "About Page"
+    files:
+      - file: "src/content/about/about.json"
+        label: "About Page Content"
+        name: "about_page_content"
+        fields:
+          - label: "About page header"
+            name: "about_page_header"
+            widget: "string"
+          - label: "About page description"
+            name: "about_page_description"
+            widget: "text"
+  # Contact Page
+  - name: "contact_page"
+    label: "Contact Page"
+    files:
+      - file: "src/content/contact/contact.json"
+        label: "Contact Page Content"
+        name: "contact_page_content"
+        fields:
+          - label: "Contact page header"
+            name: "contact_page_header"
+            widget: "string"
+          - label: "Contact page description"
+            name: "contact_page_description"
+            widget: "string"
+          - label: "Name placeholder"
+            name: "name_placeholder"
+            widget: "string"
+          - label: "Email placeholder"
+            name: "email_placeholder"
+            widget: "string"
+          - label: "Message placeholder"
+            name: "message_placeholder"
+            widget: "string"
+          - label: "Button text"
+            name: "button_text"
+            widget: "string"
+
+  # FAQ Page
+  - name: "faq_page"
+    label: "FAQ Page"
+    files:
+      - file: "src/content/faq/faq.json"
+        label: "FAQ Page Content"
+        name: "faq_page_content"
+        fields:
+          - label: "FAQ header"
+            name: "faq_header"
+            widget: "string"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            min: 3
+            fields:
+              - label: "FAQ question"
+                name: "faq_question"
+                widget: "string"
+              - label: "FAQ answer"
+                name: "faq_answer"
+                widget: "markdown"
+
+  # Wishlist Page
+  - name: "wishlist_page"
+    label: "Wishlist Page"
+    files:
+      - file: "src/content/wishlist/wishlist.json"
+        label: "Wishlist Page Content"
+        name: "wishlist_page_content"
+        fields:
+          - label: "Wishlist page header"
+            name: "wishlist_page_header"
+            widget: "string"
+          - label: "Wishlist page description"
+            name: "wishlist_page_description"
+            widget: "string"
+          - label: "Name placeholder"
+            name: "name_placeholder"
+            widget: "string"
+          - label: "Email placeholder"
+            name: "email_placeholder"
+            widget: "string"
+          - label: "Message placeholder"
+            name: "message_placeholder"
+            widget: "string"
+          - label: "Button text"
+            name: "button_text"
+            widget: "string"
+
+  - name: "Products"
+    label: "Product List"
+    files:
+      - file: "src/content/products/products.json"
+        label: "Products"
+        name: "product_list_content"
+        fields:
+          - label: "Product list"
+            name: "product_list"
+            widget: "list"
+            min: 3
+            fields:
+              - label: "Product Name"
+                name: "product_name"
+                widget: "string"
+              - label: "Product present image"
+                name: "product_present_image"
+                widget: "image"
+              - label: "Product images"
+                name: "product_images"
+                widget: "list"
+                max: 3
+                min: 2
+                fields:
+                  - label: "Product image"
+                    name: "product_images"
+                    widget: "image"
+              - label: "Product sizes"
+                name: "product_sizes"
+                widget: "list"
+                min: 1
+                max: 5
+                field:
+                  label: "Size"
+                  name: "size"
+                  widget: "string"
+              - label: "Product availability"
+                name: "product_available"
+                widget: "boolean"
+              - label: "Product price"
+                name: "product_price"
+                widget: "string"
+          - label: "Message button"
+            name: "message_text"
+            default: "Message us!"
+            widget: "string"
+          - label: "Inbox link"
+            name: "inbox_link"
+            widget: "string"
+          - label: "Product page header"
+            name: "product_page_header"
+            widget: "string"

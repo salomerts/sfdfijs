@@ -1,0 +1,85 @@
+{
+  "main_page_header": "Garter",
+  "main_page_text": "Your confidence starts here!",
+  "main_page_background": "/uploads/back.jpg",
+  "main_page_products_list": [
+    {
+      "main_page_product_list": "თეთრეული"
+    },
+    {
+      "main_page_product_list": "საცურაო კოსტიუმები"
+    },
+    {
+      "main_page_product_list": "აქსესუარები"
+    },
+    {
+      "main_page_product_list": "სასაჩუქრე ბარათები"
+    }
+  ],
+  "main_page_products": {
+    "message_text": "Provident dolor qui",
+    "inbox_link": "Mollit magnam est fu",
+    "product_page_header": "მომხმარებლის ფავორიტი!",
+    "product_list": [
+      {
+        "product_name": "Rose petal",
+        "product_price": "562 $",
+        "product_sizes": [
+          "s",
+          "m",
+          "xl"
+        ],
+        "product_images": [
+          {
+            "product_images": "/uploads/rose_petal.jpg"
+          },
+          {
+            "product_images": "/uploads/rosepetal2.jpg"
+          }
+        ],
+        "product_present_image": "/uploads/rosepetal2.jpg",
+        "product_available": false
+      },
+      {
+        "product_name": "noir desire",
+        "product_present_image": "/uploads/noir_desire3.jpg",
+        "product_images": [
+          {
+            "product_images": "https://shopfromcrisis.org.uk/cdn/shop/files/42488558-0ff6-4d32-92a1-fc9cbd15a345.jpg?v=1732626663"
+          },
+          {
+            "product_images": "https://i.etsystatic.com/6980671/r/il/e20ed8/890979465/il_570xN.890979465_rioo.jpg"
+          }
+        ],
+        "product_sizes": [
+          "m",
+          "s",
+          "l",
+          "xl",
+          "2xl"
+        ],
+        "product_available": true,
+        "product_price": "800$"
+      },
+      {
+        "product_name": "asdasdasdasdsd",
+        "product_present_image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_800,w_800/clothing_women_tcc_d_244eda5eaf.jpg",
+        "product_images": [
+          {
+            "product_images": "https://i.ebayimg.com/images/g/Lg8AAOSwbLBl45uA/s-l1600.webp"
+          },
+          {
+            "product_images": "https://i.ebayimg.com/images/g/o~cAAOSwbXll39dk/s-l1600.webp"
+          }
+        ],
+        "product_sizes": [
+          "s",
+          "m",
+          "xl"
+        ],
+        "product_price": "2300$",
+        "product_available": true
+      }
+    ]
+  }
+}

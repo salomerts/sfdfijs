@@ -1,0 +1,80 @@
+{
+  "message_text": "Message us",
+  "inbox_link": "https://www.youtube.com/watch?v=GaB9F3R9cIY&list=RD_yer-9MCQG0&index=25",
+  "product_list": [
+    {
+      "product_name": "shirt",
+      "product_present_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "product_images": [
+        {
+          "product_images": "https://cdn.pixabay.com/photo/2025/03/12/09/59/fashion-9464875_1280.jpg"
+        },
+        {
+          "product_images": "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?cs=srgb&dl=pexels-kowalievska-1055691.jpg&fm=jpg"
+        }
+      ],
+      "product_sizes": [
+        "S",
+        "M"
+      ],
+      "product_available": true,
+      "product_price": "450$"
+    },
+    {
+      "product_name": "trousers ",
+      "product_present_image": "https://burst.shopifycdn.com/photos/fashion-model-in-pink.jpg?width=1000&format=pjpg&exif=0&iptc=0",
+      "product_images": [
+        {
+          "product_images": "https://cdn.pixabay.com/photo/2024/11/08/05/28/man-9182458_1280.jpg"
+        },
+        {
+          "product_images": "https://media.istockphoto.com/id/1307568521/photo/its-the-denim-that-does-it-for-me.jpg?s=612x612&w=0&k=20&c=0RQfpn8VJxXl6sO4aUehTsPvyYKGPwVwz1EdJRBU_Nw="
+        }
+      ],
+      "product_sizes": [
+        "M",
+        "XL"
+      ],
+      "product_available": true,
+      "product_price": "50$"
+    },
+    {
+      "product_name": "tee",
+      "product_present_image": "https://freshcleantees.com/cdn/shop/files/CREWNECKSWhite.jpg?v=1714778132",
+      "product_images": [
+        {
+          "product_images": "https://au.kowtowclothing.com/cdn/shop/files/classic_tee-white-8_df0366f7-2cd0-4974-ac0c-c1e205b10b47.jpg?v=1754276209&width=1445"
+        },
+        {
+          "product_images": "https://duer.ca/cdn/shop/files/Pima_Tee-White_0141-801592.jpg?v=1716653480"
+        }
+      ],
+      "product_sizes": [
+        "M",
+        "L"
+      ],
+      "product_available": true,
+      "product_price": "1200$"
+    },
+    {
+      "product_name": "Tshirt",
+      "product_present_image": "https://framerusercontent.com/images/c64XH5vYyhyP1jV68mj6ByxAz4.png",
+      "product_images": [
+        {
+          "product_images": "https://shop.vogue.co.uk/cdn/shop/products/Vogue_T-Shirt_black_2.jpg?v=1684164309&width=1080"
+        },
+        {
+          "product_images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQii0-XZbe_sli-wZey60tpApJlHEnacxZdtQ&s"
+        }
+      ],
+      "product_sizes": [
+        "M",
+        "S",
+        "XL"
+      ],
+      "product_available": true,
+      "product_price": "350$"
+    }
+  ],
+  "product_page_header": "Greatest deals!"
+}
