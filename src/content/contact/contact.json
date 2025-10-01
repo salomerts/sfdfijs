@@ -1,8 +1,8 @@
 {
-  "contact_page_header": "Est deserunt aliqua",
-  "contact_page_description": "Eu voluptate lorem v",
-  "name_placeholder": "Charde Watkins",
-  "email_placeholder": "xymirir@mailinator.com",
-  "message_placeholder": "Asperiores ut id vol",
-  "button_text": "Sed unde id atque en"
+  "contact_page_header": "კონტაქტი",
+  "contact_page_description": "გაგვიზიარეთ თქვენი კითხვა",
+  "name_placeholder": "სახელი",
+  "email_placeholder": "ელ.ფოსტა",
+  "message_placeholder": "თქვენი შეტყობინება",
+  "button_text": "გაგზავნა"
 }
